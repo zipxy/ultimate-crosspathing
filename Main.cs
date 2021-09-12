@@ -82,7 +82,7 @@ namespace UltimateCrosspathing
             displayName = "Execute Order 66"
         };
 
-        public static int MaxTiers => ExecuteOrder66 ? 15 : 7;
+        public static int MaxTiers => ExecuteOrder66 ? 15 : 15;
 
         public static Dictionary<string, ModSettingBool> TowersEnabled = new Dictionary<string, ModSettingBool>
         {
